@@ -1,0 +1,130 @@
+.job-details-page-container {
+    padding: 80px;
+    background-color: #000000;
+}
+
+.job-details-container {
+    background-color: #272727;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.job-logo-title-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.company-logo {
+    height: 64px;
+}
+
+h3 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 0.2px;
+}
+
+.rating {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.job-details-loaction-type-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.location-type-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.location-type-container > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.job-details-loaction-type-container div p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.salary {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.description {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 28px;
+}
+
+.skills-list-container {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.skill-item {
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+}
+
+.skill-name {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.life-at-description-img-conatiner {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    padding: 20px;
+}
+
+.life-at-description-img-conatiner p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.similar-jobs-list {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+    
+}
+
+.job-list-item-conatiner {
+    background-color: #272727;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+ 
+.simliar-job-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

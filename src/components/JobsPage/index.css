@@ -1,0 +1,125 @@
+.jobs-page-container {
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+.jobs-content-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.profile-container-and-filters {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 50px;
+    height: 100vh;
+    z-index: 1000;
+}
+
+.employement-type-head {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.profile-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/profile-bg.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.profile-container img {
+    height: 64px;
+}
+
+.profile-container h2 {
+    color: #4f46e5;
+    letter-spacing: 1.5px;
+}
+
+.profile-container p {
+    color: #2c364c;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.input-conatiner {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.search-input-conatiner {
+    background-color: #313131;
+    height: 48px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.search-input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 18px;
+   
+}
+
+.search-btn {
+    color: #fff;
+    height: 100%;
+    width: 60px;
+    background-color: transparent;
+    border: none;
+    padding-right:20px ;
+    box-sizing: border-box;
+    background-color: #2c364c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.failure-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.failure-container img {
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.failure-container button {
+    height: 64px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:  #6366f1;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+}
